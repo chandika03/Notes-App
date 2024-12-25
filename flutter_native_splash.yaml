@@ -1,0 +1,21 @@
+# dart run flutter_native_splash:create --flavors dev , stg , prod
+flutter_native_splash:
+  color: "#fafafa"
+  image: assets/notelogo.png  # Path to the image file for splash screen
+  color_dark: "#fafafa"
+
+  # Android 12+ specific settings
+  android_12:
+    image: assets/notelogo.png  # The image for Android 12 (make sure it’s suitable for circular clipping)
+    color: "#fafafa"
+    icon_background_color: "#fafafa"
+    color_dark: "#fafafa"
+
+  # Web settings
+  color_web: "#fafafa"
+  color_dark_web: "#fafafa"
+  image_web: assets/notelogo.png
+  image_dark_web: assets/notelogo.png
+
+  # Fullscreen splash screen
+  fullscreen: true
